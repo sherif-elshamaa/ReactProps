@@ -1,9 +1,11 @@
 import Profile from "./Profile/Profile";
 import img from "./imageInPublic.png";
 
+
+
 function App({
   fullName = "Sherif Elshamaa",
-  bio = "placeholder bio",
+  bio,
   profession = "fullstack web developer",
   handleName = (e)=>{
     e.preventDefault();
